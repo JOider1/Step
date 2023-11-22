@@ -1,0 +1,78 @@
+.hd1{
+    background-color: rgb(0, 183, 255);
+    color: aliceblue;
+    
+    
+}
+.H1{
+    margin: 20px;
+    padding: 10px;
+    opacity: .8;
+
+}
+.H{
+    margin: 20px;
+    padding: 10px;
+    font-family: "neky";
+    }
+@font-face{
+    font-family: "neky";
+    src: url(../tth/Caricature.fr.ttf);
+}
+.P{
+    margin: 30px;
+    opacity: .6;
+}
+.div1{
+background-color: rgb(0, 183, 255);
+padding: 10px;
+text-align: center;
+width: 100px;
+border-radius: 5px;
+color: aliceblue;
+margin: 30px;
+}
+
+.P1{
+    text-align: center;
+    opacity: .6;
+}
+
+.hd2{
+    text-align: center;
+}
+.div2{
+    background-color: rgb(0, 183, 255);
+padding: 10px;
+text-align: center;
+width: 100px;
+border-radius: 5px;
+color: aliceblue;
+margin: 0 auto;
+}
+.asi{
+    width: 150px;
+    float: left;
+    height: 600px;
+}
+.main{
+    margin-left: 200px;
+    height: 800px;
+}
+.div3{
+    background-color: rgb(0, 183, 255);
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    color: aliceblue;
+    
+    }
+.P2{
+    text-align: left;
+    opacity: .6;
+}
+.H3{
+    opacity: .8; 
+}
+

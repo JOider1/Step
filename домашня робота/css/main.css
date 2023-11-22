@@ -1,0 +1,29 @@
+.index{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+.Ferrari{
+   display: flex;
+   justify-content: center;
+}
+.Ferrari img{
+    margin: 0 10px;
+    width: 300px;
+}
+h1{
+    text-align: center;
+}
+
+.Ferrarif{
+    float: left;
+    width: 800px;
+    padding: 30px;
+}
+p{
+    text-align: center;
+    padding: 30px;
+}
+.last{
+    clear: both;
+}

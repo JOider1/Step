@@ -1,0 +1,156 @@
+/* filter  */
+
+.filter{
+    margin: 200px;
+}
+
+.filter .filter_img{
+    width: 500px;
+    transition: all 1s linear;
+}
+
+.filter_img:hover{
+    /* filter: blur(10px);  */
+    /*? розмиття */
+    
+    /* filter: drop-shadow(5px 7px 6px red); */
+    /*? задає тінь по обєкту */
+
+    /* filter: grayscale(50%); */
+    /*? робить картинку чорнобілою */
+
+    /* filter: brightness(100%); */
+    /*? робить обєкт темнішим від 0% до 100% і робить яскравим від 100% до безкінечності */
+
+    /* filter: contrast(100%); */
+    /*? робить обєкт менш констрактним від 0% до 100% і робить констрактним від 100% до безкінечності */
+
+    /* filter: hue-rotate(180deg); */
+    /*? поворотного відтінку на колірному колесі */
+    
+    /* filter: invert(100%); */
+    /*? перетворює обєкт в негатив */
+
+    /* filter: saturate(100%); */
+    /*? робить обєкт ненасищиним від 0% до 100% і робить насищиним від 100% до безкінечності */
+
+    /* filter: sepia(100%); */
+    /*? робить обєкт старим(старим фото) від 0% до 100%  */
+
+    /* filter: opacity(100%); */
+    /*? робить прозорим від 0% до 100%  */
+
+    filter: blur(2px) contrast(150%) drop-shadow(5px 7px 5px #ccc);
+}
+
+.test{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid red;
+    border-bottom: 50px solid transparent;
+    position: relative;
+    /* box-shadow: 15px 15px 3px 20px #ccc; */
+    filter: drop-shadow( 15px 15px 2px #ccc);
+}
+.con1{
+    display: flex;
+}
+.con2{
+    display: flex;
+}
+.con3{
+    display: flex;
+}
+.con4{
+    display: flex;
+}
+.con5{
+    display: flex;
+}
+.con6{
+    display: flex;
+}
+
+div img{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+   
+}
+.i1 img:hover{
+    transform: translateX(20px);
+    transition-duration: 2s;
+}
+.i2 img:hover{
+    transform: translateY(20px);
+    transition-duration: 2s;
+}
+.i3 img:hover{
+    transform: translate(20px, 20px);
+    transition-duration: 2s;
+}
+.i4 img:hover{
+    transform: rotate(45deg);
+    transition: 1s linear;
+}
+.i5 img:hover{
+    transform: scaleX(-1);
+    transition: 1s linear;
+}
+.i6 img:hover{
+    transform-origin: left top;
+    transform: rotate(90deg);
+    transition: 1s linear;
+}
+.i7 img:hover{
+    transform: skew(30deg, 30deg);
+    transition: 1s linear;
+}
+.i8 img{
+    filter: blur(10px);
+}
+.i8 img:hover{
+    filter: blur(0px);
+    transition: all 1s linear;
+}
+.i9 img:hover{
+    filter: brightness(200%);
+    transition: all 1s linear;
+}
+.i10 img{
+    filter: grayscale(100%);
+}
+.i10 img:hover{
+    filter: grayscale(0%);
+    transition: all 1s linear;
+}
+.i11 img:hover{
+    filter: drop-shadow(15px 15px 1px #ccc);
+    transition: all 1s linear;
+}
+.i12 img:hover{
+    filter: brightness(200%);
+    transition: all 1s linear;
+}
+.i13 img:hover{
+    filter: hue-rotate(180deg);
+    transition: all 1s linear;
+}
+.i14 img:hover{
+    filter: invert(100%);
+    transition: all 1s linear;
+}
+.i15 img:hover{
+    filter: saturate(300%);
+    transition: all 1s linear;
+}
+.i16 img:hover{
+    filter: sepia(100%);
+    transition: all 1s linear;
+}
+.i17 img:hover{
+    transform: rotate(45deg);
+    transition: 1s linear;
+}

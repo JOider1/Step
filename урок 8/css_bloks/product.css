@@ -1,0 +1,10 @@
+.bg-PRODUCT{
+    margin: 0 auto;
+    background-color: #eae7e8;
+}
+.bg-PRODUCT img{
+    float: right;
+}
+.bg-PRODUCT .sec{
+    width: 960px;
+}

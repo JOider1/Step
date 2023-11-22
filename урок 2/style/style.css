@@ -1,0 +1,74 @@
+/* p{
+    color: blueviolet;
+    font-size: 45px;
+} */
+
+/* Силектор{
+    Властивість: Значення;
+    Властивість: Значення;
+    Властивість: Значення;
+} */
+
+/* ? СЕЛЕКТОРИ
+
+/*? 1 СЕЛЕКТОР ТЕГА */
+/* p{
+    color: red;
+} */
+/*? 2 СЕЛЕКТОР Class */
+/* .p2{
+    color: blueviolet;
+} */
+/*? 3 СЕЛЕКТОР ID */
+/* #p3{
+color: blue;
+} */
+/* ? 4 СЕЛЕКТОР ALL застосовуєця до всіх тегів */
+/* *{
+    background-color: cadetblue;
+}  */
+
+/* ! селектор групування */
+/* #p3,p,p2,*{
+color: aquamarine;
+} */
+
+/* ---------------------------------------------------------- */
+@font-face {
+    font-family: "test";
+    src: url(../fonts/AlumniSansCollegiateOne-Italic.ttf);
+}
+p{
+    font-size: 40px;   /* розмір тексту */
+    font-style: normal;   /*стиль фону*/
+    font-weight: bold;      /*жирність фону*/
+    text-align: justify;   /* вирівнювання тексту в любій тачці */
+    text-decoration: underline;     /*дикорація тексту underline, overline і тд*/
+    text-indent: 30px;      /*абзац*/
+    text-transform: capitalize;      /*трансформує текст uppercase*/
+
+    /* border-width: 4px; ширина рамкі */
+    /* border-style: solid;    стиль рамкі */
+    /* border-color: brown;    колір рамкі */
+    /* border-bottom: 4px solid brown ;    задіює знизу */
+    /* border-left: 4px solid brown ;    задіює зліва */
+    border: 4px solid brown;    /* короткий запис */
+    color: rgb(238, 222, 0);    /*колір тексту*/
+    background-color: chocolate; /*колір заднього фону*/
+    /* margin: 40px ; відступ елемента зі всіх сторін */
+    /* margin: 40px 50px;      40px-верх низ 50px-ліво право */
+    /* margin: 40px 15px 50px 35px; 40px-верх 15px-право 50px-низ 35px-ліво */
+    /* margin-left: 100px;     відступ зліва і подібні*/
+    
+    padding: 10px;      /*внутрішній відступ, все прописуєця як в margin*/
+
+    
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(0, 238, 71);    /*колір тексту*/
+    background-color: rgb(0, 177, 247); /*колір заднього фону*/
+}
+
+

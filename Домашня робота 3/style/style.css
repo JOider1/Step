@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "shrift1";
+    src: url(../fonts/font.otf);
+}
+@font-face {    
+    font-family: "shrift2";
+    src: url(../fonts/Library.otf);
+}
+@font-face {   
+    font-family: "shrift3";
+    src: url(../fonts/Library_soft.otf);
+}
+    @font-face {  
+    font-family: "shrift4";
+    src: url(../fonts/Perfograma.otf);
+}
+h1{
+    font-family: "shrift3";
+    color: #b06843;
+    text-align: center;
+}
+.opus{
+    font-family: "shrift1";
+    line-height: 2;
+    text-align: center;
+}
+.zap{
+    text-align: center;
+    font-family: "shrift2";
+    color: #2b07ca;
+}
+.vpodobana{
+    font-weight: bold;
+    text-align: right;
+}
+.in{
+    color:#89015c;
+    text-align: center;
+    text-transform:uppercase;
+}
+.rec{
+    font-family: "shrift4";
+    line-height: 0;
+    text-decoration: underline;
+    font-size: 20px;
+    text-indent: 50px;
+}
+.text{
+    text-indent: 50px;
+}
+.sous{
+    border: 2px solid #9d1e25;
+    color: #9d1e25;
+    font-style: italic;
+    height: 200px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+
+}

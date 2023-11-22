@@ -1,0 +1,51 @@
+.bg-header{
+    background-color: #eae7e8;
+    padding: 35px 0;
+}
+.bg-header nav{
+    float: right;
+}
+
+
+.bg-header nav>ul>li{
+    float: left;
+    margin-top: 7px;
+}
+.bg-header a{
+    font-size: 15px;
+    font-family: "LatoB";
+    color: #7a6666;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    line-height: 25px;
+}
+.bg-header .active{
+    color: #cb3362;
+}
+.drop_list ul{
+    display: none;
+}
+.drop_list:hover ul{
+    display: block;
+}
+.bg-header nav a:hover{
+    color: #c8c10d;
+}
+.bg-header .logo{
+    font-size: 30px;
+    font-family: "RammettoOne";
+    color: #cb3362;
+    text-transform: capitalize;
+    position: relative;
+}
+.bg-header .logo span{
+    color: #c8c10d;
+}
+.bg-header .logo img{
+    position: absolute;
+    top: -15px;
+    left: 100px;
+}

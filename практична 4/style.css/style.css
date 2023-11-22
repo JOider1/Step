@@ -1,0 +1,110 @@
+/* .but1{
+    text-align: center
+}
+.but1 button{
+    color: white;
+    border: 1px solid #008f94;
+    padding: 2px;
+    background: linear-gradient(0deg,#007174 0%, #00f8ff 80%);
+    border-radius: 2px;
+}
+.but2{
+    text-align: center
+}
+.but2 button{
+    color: white;
+    border: 1px solid #4148ad;
+    padding: 2px;
+    background: linear-gradient(0deg,#51558b 0%, #007eff 80%);
+    border-radius: 2px;
+}.but3{
+    text-align: center
+}
+.but3 button{
+    color: white;
+    border: 1px solid #609647;
+    padding: 2px;
+    background: linear-gradient(0deg,#58714c 0%, #3cff82 80%);
+    border-radius: 2px;
+}.but4{
+    text-align: center
+}
+.but4 button{
+    color: white;
+    border: 1px solid rgb(3, 153, 3);
+    padding: 2px;
+    background: linear-gradient(0deg,#578b51 0%, #2cff00 80%);
+    border-radius: 2px;
+}
+.but5{
+    text-align: center
+}
+.but5 button{
+    color: white;
+    border: 1px solid #919e1a;
+    padding: 2px;
+    background: linear-gradient(0deg,#858b51 0%, #fffc4c 80%);
+    border-radius: 2px;
+}
+.but6{
+    text-align: center
+}
+.but6 button{
+    color: white;
+    border: 1px solid #c54d29;
+    padding: 2px;
+    background: linear-gradient(0deg,#a34326 0%, #ff9563 80%);
+    border-radius: 2px;
+}
+.but7{
+    text-align: center
+}
+.but7 button{
+    color: white;
+    border: 1px solid #c02c8a;
+    padding: 2px;
+    background: linear-gradient(0deg,#8b2867 0%, #ff64c6 80%);
+    border-radius: 2px;
+}
+.but8{
+    text-align: center
+}
+.but8 button{
+    color: white;
+    border: 1px solid #834594;
+    padding: 2px;
+    background: linear-gradient(0deg,#683c74 0%, #db40fa 80%);
+    border-radius: 2px;
+} */
+
+/* .buton1 p{
+    color: white;
+    background-color: black;  
+    margin: 0px 0px;
+    border-bottom: solid 0.01px gray;
+    
+}
+p:hover{
+    box-shadow: inset 0 0 8px rgb(0, 145, 202);
+    color: rgb(0, 145, 202);
+}
+.buton1{
+    width: 100px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 2px;
+} */
+div{
+    background-color: black;
+    color: white;
+    margin: 0px 0px;
+    width: 100px;
+    text-align: center;
+}
+img{
+    width: 10px;
+    color: white;
+}
+div:hover{
+    color: brown;
+}

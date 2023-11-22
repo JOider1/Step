@@ -1,0 +1,253 @@
+.cont{
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 600px;
+    height: 800px;
+    padding: 10px;
+}
+
+/* 1 blok */
+
+/* header{
+    border: 2px solid black;
+    height: 15%;
+    margin: 5px;
+}
+.box1{
+   
+    border: 2px solid black;
+    margin: 5px; 
+    width: 120px;
+    height: 500PX;
+    float: left;
+}
+.box2{
+    margin: 5px;
+    border: 2px solid black;
+    width: 120px;
+    height: 500px;
+    float: right;
+}
+.box3{
+    margin: 5px;
+    border: 2px solid black;
+    width: 318px;
+    height: 600px;
+    float: right;
+}
+footer{
+    margin: 5px;
+    border: 2px solid black;
+    clear: both;
+} */
+
+/* 2 blok  */
+
+/* header{
+    border: 2px solid black;
+    height: 15%;
+    margin-bottom: 5px;
+}
+.box1{
+    border: 2px solid black;
+    width: 150px;
+    height: 500px;
+    float: left;
+}
+.box2{
+    border: 2px solid black;
+    width: 436px;
+    height: 600px;
+    float: right;
+    margin-bottom: 5px;
+}
+footer{
+    clear: both;
+    border: 2px solid black;
+    height: 7%;
+} */
+
+/* 3 */
+/* header{
+    border: 2px solid black;
+    height: 15%;
+    margin-bottom: 5px;
+}
+.box1{
+    border: 2px solid black;
+    width: 150px;
+    height: 500px;
+    float: right;
+}
+.box2{
+    margin-bottom: 5px;
+    border: 2px solid black;
+    width: 436px;
+    height: 600px;
+    margin-bottom: 5px;
+}
+footer{
+    border: 2px solid black;
+    height: 7%;
+} */
+
+/* 4 */
+
+/* .A{
+    margin: 0 auto;
+    width: 700px;
+    height: 800px;
+    background-color: rgb(228, 0, 0);
+}
+.B{
+    width: 20%;
+    height: 760px;
+    background-color: rgb(224, 127, 0);
+    margin: 15px;
+    float: left;
+}
+.C{
+    width: 71%;
+    height: 760px;
+    background-color: yellow;
+    margin: 15px;
+    float: right;
+}
+.D{
+    width: 94%;
+    height: 30.7%;
+    background-color: rgb(140, 207, 38);
+    margin: 15px;
+}
+.E{
+    width: 30%;
+    height: 87%;
+    background-color: rgb(71, 73, 190);
+    margin: 15px;
+    float: left;
+}
+.F{
+    width: 56%;
+    height: 87%;
+    background-color: rgb(92, 48, 133);
+    margin: 15px;
+    float: left;
+}
+.H{
+    width: 40%;
+    height: 85%;
+    background-color: rgb(143, 143, 143);
+    margin: 15px;
+    float: left;
+}
+.G{
+    width: 37%;
+    height: 85%;
+    background-color: rgb(167, 20, 230);
+    margin: 15px;
+    float: left;
+}
+.I{
+    width: 70%;
+    height: 37%;
+    background-color: aliceblue;
+    margin: 15px;
+}
+.last_G{
+    width: 89%;
+    height: 85%;
+    background-color: rgb(167, 20, 230);
+    margin: 15px;
+    float: left;
+}
+span{
+    position: absolute;
+} */
+
+.min{
+    background-color: rgb(47, 184, 238);
+    height: 80px;
+}
+.min h1{
+    margin: 20px;
+    padding: 25px;
+    color: white;
+    font-family: "min";
+}
+
+@font-face {
+    font-family: "min";
+    src: url(../font/Caricature.fr.ttf);
+}
+.minimg{
+    width: 100%;
+}
+.lo2{
+    margin: 30px;
+}
+.p1{
+    margin: 30px;
+    opacity: .6;
+}
+.RM{
+    background-color: rgb(0, 183, 255);
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 30px;
+}
+.NH{
+    text-align: center;
+}
+.p2{
+    text-align: center;
+    opacity: .6;
+}
+.DOW{
+    background-color: rgb(0, 183, 255);
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 0 auto;
+}
+.LIMG{
+    float: left;
+    padding: 30px;
+}
+.RM2{
+    background-color: rgb(0, 183, 255);
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 40px;
+}
+.ma{
+    margin-left: 200px;
+}
+.RIMG{
+    float: right;
+    padding: 30px;
+}
+.LR2{
+    text-align: left;
+    clear: left;
+    margin: 30px;
+}
+.p3{
+    margin: 30px;
+}
+.RM3{
+    background-color: rgb(0, 183, 255);
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 30px;
+}

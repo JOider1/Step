@@ -1,0 +1,66 @@
+.box{
+    /* ? ширина, висота */
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    background-color: rgb(75, 75, 255);
+
+    float: right;
+    /* float: left;  */
+
+    color: aliceblue;
+    font-size: 140px;
+    text-align: center;
+
+}
+.p1{
+    font-size: 14px;
+}
+
+.p2{
+    font-size: 14px;
+    /* clear: right;   заборонняяє обтікання зправа */
+    /* clear: left;   заборонняяє обтікання зліва */
+    clear: both;    /* заборонняяє обтікання зліва та справа*/
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline;
+    margin: 15px;
+
+    float: left;
+}
+body{
+    /* background-color: rgb(255, 230, 0); */
+
+    background-image: url(/урок3/image/Знімок\ екрана\ 2023-10-15\ 184912.png);
+
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: round; */
+    /* background-repeat: space; */
+    
+
+    /* background-position: center ; */
+    /* background-position: top ; */
+    /* background-position: bottom ; */
+    /* background-position: right; */
+    /* background-position: left; */
+    /* background-position: bottom left ; */
+    /* background-position: 100px ; */
+
+
+    /* background-attachment: fixed; закріплює фон за скролом */
+    /* background-attachment: local; */
+    /* background-attachment: scroll; */
+
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: auto; */
+    /* background-size: 100% 120%; */
+
+    
+}

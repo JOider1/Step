@@ -1,0 +1,14 @@
+.bg-name{
+    background-color: #c8c10d;
+}
+.bg-name h3{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: "RobotoR";
+    font-size: 30px;
+    letter-spacing: 7px;
+}
+.about-img{
+    margin-bottom: -4px;
+}

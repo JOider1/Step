@@ -1,0 +1,36 @@
+/* import */
+
+@import './fonts.css';
+
+@import '../css_bloks/header.css';
+
+@import '../css_bloks/baner.css';
+
+@import '../css_bloks/footer.css';
+
+@import '../css_bloks/about.css';
+
+@import '../css_bloks/block.css';
+
+@import '../css_bloks/product.css';
+
+ul, ol, h1, h2, h3, h4, h5, h6, p, body{
+    padding: 0;
+    margin: 0;
+}
+ul, ol{
+    list-style-type: none;
+}
+body{
+    background-color: white;
+}
+.container-fluid{
+    box-sizing: border-box;
+    width: 100%;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 10px;
+}

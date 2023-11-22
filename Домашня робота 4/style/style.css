@@ -1,0 +1,58 @@
+body{
+    background-image: url(../img/horoscope_bkgr.jpg);
+}
+h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.zodiaki{
+    color: white;
+    text-align: center;
+    clear: both;
+
+}
+.gr{
+    width: 400px;
+    clear: both;
+}
+.imgzodleft{
+    border: solid 2px white;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+.opusl{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.znaml{
+    color: white;
+    text-align: left;
+    
+}
+.imgzodright{
+    border: solid 2px white;
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin: 10px;
+}
+.opusr{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.znamr{
+    color: white;
+    text-align: right;
+    
+}
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}

@@ -1,0 +1,103 @@
+/* animation */
+.content_circle{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    
+    animation-name: example; /*назва ключових кадрів*/
+    animation-duration: 6s; /*швидкість ключових кадрів*/
+    animation-timing-function: linear; /*прискорення*/
+    animation-delay: 1s; /*затримка*/
+
+    /* animation-iteration-count: 2; кількість виконнаяня анімації */
+     animation-iteration-count: infinite; /*безкінечна кількість виконнаяня анімації */
+
+    animation-direction: alternate; /*задавання напряму назад або відбивання з початку до кінця*/
+    /* animation-fill-mode: forwards; задає кінець анімації */
+    /* animation-play-state: paused; пауза анімації */
+    /* ................ */
+    /* animation: example 2s linear 1s infinite alternate; */
+
+
+}
+
+.content_circle:hover{
+    animation-play-state: running;
+}
+
+@keyframes example{
+    0%{
+        left: 0;
+    }
+    50%{
+        border-radius: 0%;
+        background-color: blue;
+    }
+    100%{
+        left: 700px;
+        background-color: greenyellow;
+    }
+}
+/* ! transition */
+
+.square{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+
+    /* transition-property: all; властивості які змінюються */
+    /* transition-duration: 2s;  */
+    /*час зміни елемента від поч до кін стану*/
+   
+    /* transition-timing-function: linear;  */
+    /*прискорення як animation-timing-function*/
+
+    /* transition-delay: 0.5s; */
+    /*затримка*/
+
+    transition: all 990ms linear 1s;
+
+}
+.square:hover{
+    background-color: cornflowerblue;
+    height: 300px;
+    width: 300px;
+}
+
+/* transform */
+
+
+.transform{
+    margin: 100px 200px;
+    border: 2px solid black;
+    display: inline-block;
+    overflow: hidden;
+}
+.transform .trn_img{
+    width: 300px;
+    transition: all 1s linear;
+
+    /* transform-origin:top right; */
+
+    
+}
+.transform:hover .trn_img{
+    transform: rotate(-90deg); 
+    /*? обертання елемента*/
+
+    /* transform: scale(2); */
+    /* transform: scale(1.5, 0.5);  */
+    /* transform: scaleX(2); */
+    /*? маштабування */
+
+    transform: translate(300px);
+    /*? зміщення */
+
+    /* transform: skew(30deg, 30deg); */
+    /*? викривлення  */
+
+}
+
